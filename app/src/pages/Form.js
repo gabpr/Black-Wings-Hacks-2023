@@ -1,5 +1,9 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+
 export default function Form() {
+
+const navigate = useNavigate();
 
 // States for registration
 const [username, setUsername] = useState('');
@@ -27,6 +31,7 @@ e.preventDefault();
 if (username === '' || password === '') {
 setError(true);
 } else {
+navigate("/Home");
 setSubmitted(true);
 setError(false);
 }
