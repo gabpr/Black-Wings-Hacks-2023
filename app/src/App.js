@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Form from './Form';
 
 function Menu() {
   const [isOpen, setIsOpen] = useState(false);
@@ -83,13 +84,18 @@ function QFeed() {
     </div>
   );
 }
+
 const App = () => (
-  <div>
-    <Menu />
-    <QBox />
-    <Qcategories />
-    <QFeed />
-  </div>
+  // <div>
+  //   <Menu />
+  //   <QBox />
+  //   <Qcategories />
+  //   <QFeed />
+  // </div>
+
+<div className="App">
+  <Form />
+</div>
 );
 
 export default App;
