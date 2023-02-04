@@ -6,8 +6,9 @@ function Menu() {
     const [isOpen, setIsOpen] = useState(false);
   
     return (
-      <div>
-        <button onClick={() => setIsOpen(!isOpen)}>
+      <div className="Welcome">
+        <h2>Hi, Nicole!</h2>
+        {/* <button onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? "Close" : "Open"}
         </button>
         {isOpen && (
@@ -16,7 +17,8 @@ function Menu() {
             <li>Item 2</li>
             <li>Item 3</li>
           </ul>
-        )}
+        )} */}
+
       </div>
     );
   }
@@ -25,10 +27,9 @@ function Menu() {
     const [inputValue, setInputValue] = useState("");
   
     return (
-      <div>
-        <div class="text-primary mt-2">Ask a Question</div>
-        <input 
-          type="text" 
+      <div className="Qbox">
+        <div >Ask a Question</div>
+        <textarea 
           value={inputValue} 
           onChange={(event) => setInputValue(event.target.value)} 
         />
@@ -45,7 +46,7 @@ function Menu() {
     };
   
     return (
-      <div class="w-100">
+      <div class="w-100" className="Qbox">
         <label class="w-100 text-primary">Category</label>
         <select value={selectedOption} onChange={handleOptionChange}>
           <option value="Option 1">Option 1</option>
@@ -73,10 +74,10 @@ function Menu() {
     }, []);
   
     return (
-      <div>
-        <div class="mt-3 text-primary">Question Feed</div>
+      <div className="Qfeed">
+        <div >Question Feed</div>
         {keys.map((key, index) => (
-          <div key={index}>
+          <div className="Qbubble" key={index}>
             <div class="qfeed">{key}: {message[key]}</div>
           </div>
         ))}

@@ -5,6 +5,7 @@ import {Route, Routes} from "react-router-dom";
 import Form from './pages/Form';
 import Home from './pages/Home';
 import Prompts from './pages/Prompts';
+import Questions from './pages/Questions';
 
 // function Menu() {
 //   const [isOpen, setIsOpen] = useState(false);
@@ -118,4 +119,5 @@ function App(){
     </div>
   )
 }
+
 export default App;
