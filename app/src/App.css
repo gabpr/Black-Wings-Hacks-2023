@@ -18,3 +18,60 @@ li {
 .qfeed {
   border: 2px red solid;
 }
+
+/* for sign up page */
+.App {
+  text-align: center;
+  background-color:rgb(252, 252, 252);
+  border-style: solid;
+  border-width: 15px;
+  border-color: #2D8DFF;
+  }
+  
+  .label{
+  display: block;
+  font-size: larger;
+  color: rgb(10, 10, 10);
+  padding: 5px;
+  }
+  
+  .input{
+  font-size: larger;
+  padding: 5px;
+  margin: 2px;
+  
+  }
+  .btn{
+  color: white;
+  background-color: #690DFF;
+  border-radius: 5px;
+  font-size: larger;
+  display: block;
+  padding: 5px;
+  margin: 10px auto;
+  }
+  
+  .messages{
+  display: flex;
+  justify-content: center;
+  }
+  
+  .error{
+  display: block;
+  background-color: red;
+  color: white;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+  }
+  
+  .success{
+  display: block;
+  background-color: lightblue;
+  color: black;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+  }
+
+  
