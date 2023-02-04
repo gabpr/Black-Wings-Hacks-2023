@@ -1,9 +1,10 @@
 // import React, { useState, useEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Form from './pages/Form';
 import {Route, Routes} from "react-router-dom";
-import Home from './pages/Home'
+import Form from './pages/Form';
+import Home from './pages/Home';
+import Prompts from './pages/Prompts';
 
 // function Menu() {
 //   const [isOpen, setIsOpen] = useState(false);
@@ -103,10 +104,16 @@ import Home from './pages/Home'
 function App(){
   return (
     <div className="App">
+  
+  {/* added routes here because the tutorial showed 
+  that but we can keep routes.js*/}
 
   <Routes>
     <Route path="/" element={<Form />} />
     <Route path="/home" element={<Home />} />
+    <Route path="/questions" component={Questions} />
+    <Route path="/dailyprompt" component={Prompts} />
+    
   </Routes>
     </div>
   )
