@@ -1,0 +1,20 @@
+button {
+  padding: 8px 12px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 8px 0;
+}
+
+li {
+  padding: 8px 12px;
+}
+
+.qfeed {
+  border: 2px red solid;
+}
