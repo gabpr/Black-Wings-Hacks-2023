@@ -12,6 +12,8 @@ function App() {
       <Route path="/menu" component={Menu} />
       <Route path="/" element={Form} />
       <Route path="/home" element={Home} />
+      <Route path="/signup" element={<CreateProfile />} />
+      
     </Router>
   );
 }
