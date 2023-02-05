@@ -18,10 +18,15 @@ li {
 .qfeed {
   border: 2px #f7d4de;
   border-radius: 1em;
-  height: 4em;
+  height: auto;
   padding: 1em;
   background-color: #FFE7EE;
-  margin: 2em;
+  text-align: start;
+  margin: 0 !important;  
+}
+
+.float {
+  float: left;
 }
 
 /* for sign up page */
@@ -46,8 +51,9 @@ li {
 
   .btn{
   color: white;
-  background-color: #690DFF;
-  border-radius: 5px;
+  background-color: #34067e;
+  border-radius: 10px;
+  --bs-btn-hover-bg: #690DFF;
   font-size: larger;
   display: block;
   padding: 5px;
@@ -150,4 +156,22 @@ h4 {
 
 .sh {
   color: transparent;
+}
+
+.break {
+  width: 100px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .break {
+    max-width: 50%;
+    width: 100%;
+  }
+}
+
+.cat {
+  border: none;
+  border-radius: 10px;
+  background-color: #f7d4de;
 }

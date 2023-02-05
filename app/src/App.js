@@ -115,6 +115,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Form />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/prompts" element={<Prompts />} />
         {/* <Route path="/questions" component={Questions} />
         <Route path="/dailyprompt" component={Prompts} /> */}
         <Route path="/signup" element={<CreateProfile />} />
