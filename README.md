@@ -27,7 +27,16 @@ Anticipated Graduation: December 2023<br>
 
 
 <h2>Operation of Demo</h2>
-To view our project, please navigate to: <br>
+To view our project: <br>
+1) Download main branch and extract files OR clone repository to local machine <br>
+2) Open editor of choice (VS Code used for development) <br>
+3) Navigate to main branch folder <br>
+Requirement: node.js must be downloaded to machine - otherwise download via nodejs.org/en/download/ <br>
+4) Navigate to app (cd app) <br>
+5) command line: npm install <br>
+6) npm run <br>
+
+
 Spec requirements: <br>
 
 To learn more about our creative and design process, please visit our ProductInfo markdown file 
