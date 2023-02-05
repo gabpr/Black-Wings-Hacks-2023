@@ -94,8 +94,8 @@ li {
   .Welcome {
     color: white;
     background-color: #690DFF;
-    height: 7em;
-    vertical-align: middle;
+    /* height: 7em; */
+    /* vertical-align: middle; */
   }
   .Qfeed{
     background-color: #2D8DFF;
@@ -109,4 +109,7 @@ li {
   h2 {
     margin-bottom: 0rem;
   }
-  
+
+  .bg {
+    background-color:#2D8DFF
+  }
