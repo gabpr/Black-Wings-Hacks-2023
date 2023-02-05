@@ -33,8 +33,7 @@ To view our project: <br>
 3) Navigate to main branch folder <br>
 Requirement: node.js must be downloaded to machine - otherwise download via nodejs.org/en/download/ <br>
 4) Navigate to app (cd app) <br>
-5) command line: npm install <br>
-6) npm run <br>
+5) command line: npm run <br>
 
 
 To learn more about our creative and design process, please visit our ProductInfo markdown file <br>
