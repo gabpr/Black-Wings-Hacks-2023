@@ -94,9 +94,13 @@ li {
   .Welcome {
     color: white;
     background-color: #690DFF;
-    /* height: 7em; */
-    /* vertical-align: middle; */
   }
+
+  .Daily {
+    color: black;
+    background-color: #FFE7EE;
+  }
+
   .Qfeed{
     background-color: #2D8DFF;
     color: white;
@@ -120,4 +124,30 @@ li {
   .wrapper fieldset {
     margin: 20px 0;
 }
-  
+
+.menu {
+  background-color: #4408a3;
+}
+
+h4 {
+  color: white;
+}
+
+.hamburger {
+  background-color: #FFE7EE;
+  border: none;
+}
+
+.Banner {
+  background-image: url("./assets/Banner-l.png");
+  width: 100vw;
+  min-height: 30vh;
+  background-size: cover;
+  color: white;
+  font-size: 250%;
+  font-weight: bold;
+}
+
+.sh {
+  color: transparent;
+}
