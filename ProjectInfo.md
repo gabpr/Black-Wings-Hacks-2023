@@ -44,8 +44,6 @@ The unique features that differentiate our app include:
 Proposed domain names registered at domain.com:<br>
 firstbutnotleast.tech <br>
 wethefirst.tech <br>
-firstgenbutnotlast.tech <br>
-mefirst.tech <br>
   
 <h2>Challenges Experienced</h2>
 Since our team consists of all students, fitting in time to prioritize the hackathon amidst class deadlines and other commitments was a challenge. We set rough timelines for ourselves to make the most out of the limited time of the hackathon, which was a unique and fun challenge. Setting realistic tasks and features was important for us to create a living product without compromising on design or impact. We chose features that would doable for the time crunch and our team's skill levels, creating opportunities for future development while still launching a project we could be proud of. <br>
