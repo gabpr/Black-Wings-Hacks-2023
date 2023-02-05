@@ -8,7 +8,7 @@ import Menu from '../components/Menu.js'
 function Banner() {
   return (
     <div className="Banner py-5">
-      <img src="/app/src/assets/First-tr.png" alt=""></img>
+      <div class="sh">.</div>
       Hi, Nicole!
     </div>    
   );
