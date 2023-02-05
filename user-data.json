@@ -1,0 +1,59 @@
+{
+    "Users": [
+            {
+                "userID":"48302",
+                "username":"razorbill",
+                "password":"password11!",
+                "firstName":"Taylor",
+                "lastName":"Tome",
+                "aboutMe":"I am a Senior Computer Science student, graduating in May 2023. Interested in AI, ML, cybersecurity, data analytics and product management.",
+                "flags":"New Grad",
+                "email":"tomen@vcu.edu",
+                "phoneNumber":"8049042711"
+            },
+            {
+                "userID":"83401",
+                "username":"picklerick",
+                "password":"ilovepickles3",
+                "firstName":"Rick",
+                "lastName":"Pickle",
+                "aboutMe":"Professional data engineer, graduated 2020",
+                "flags":"Professional",
+                "email":"picklepickles@hotmail.com",
+                "phoneNumber":"5029403351"
+            },
+            {
+                "userID":"77593",
+                "username":"bryantbrady",
+                "password":"puppies39",
+                "firstName":"Dillon",
+                "lastName":"James",
+                "aboutMe":"Freshman in mechanical engineering",
+                "flags":"Student",
+                "email":"bryant334@hotmail.com",
+                "phoneNumber":"5830295834"
+            },
+            {
+                "userID":"23001",
+                "username":"scorecard8",
+                "password":"2023pass#",
+                "firstName":"Tom",
+                "lastName":"Thow",
+                "aboutMe":"Sophmore student, interned at Microsoft last year. I like coding and CTF competitions.",
+                "flags":"Student",
+                "email":"scoresy_play@hotmail.com",
+                "phoneNumber":"5960092830"
+            },
+            {
+                "userID":"95831",
+                "username":"kikomanstar",
+                "password":"oliveROCKS20",
+                "firstName":"Jayne",
+                "lastName":"Reed",
+                "aboutMe":"Software engineer in fintech 5 years. Previously worked in retail.",
+                "flags":"Professional",
+                "email":"jayne_reed@capitalone.com",
+                "phoneNumber":"4720384021"
+            }
+    ]
+}
