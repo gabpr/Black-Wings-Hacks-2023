@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useEffect} from "react";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import QData from "../questionanswer-data.json";
 
 
 function Menu() {
@@ -98,11 +99,22 @@ function Menu() {
     return (
       <div className="Qfeed pb-5 pt-2">
         <div >Recent Questions</div>
-        {keys.map((key, index) => (
+        {/* {keys.map((key, index) => (
           <div className="Qbubble" key={index}>
             <div class="qfeed m-2">{key}: {message[key]}</div>
           </div>
-        ))}
+        ))} */}
+        <div className="Qbubbles">
+          {QData.map( qna => {
+            return(
+              <div>
+                <h4>{ qna.postedBy }</h4>
+                <p>{ qna.question }</p>
+              </div>
+            )
+          } )}
+        </div>
+
       </div>
     );
   }
