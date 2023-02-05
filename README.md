@@ -31,7 +31,7 @@ To view our project: <br>
 1) Download main branch and extract files OR clone repository to local machine <br>
 2) Open editor of choice (VS Code used for development) <br>
 3) Navigate to main branch folder <br>
-Requirement: node.js must be downloaded to machine - otherwise download via nodejs.org/en/download/ <br>
+Requirement: node.js and npm must be downloaded to machine - otherwise download via nodejs.org/en/download/ <br>
 4) Navigate to app (cd app) <br>
 5) command line: npm start <br>
 
