@@ -1,7 +1,7 @@
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Questions from './Questions';
-import Prompts from './Prompts';
-import Form from './pages/Form';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Questions from "./Questions";
+import Prompts from "./Prompts";
+import Form from "./pages/Form";
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { useReducer, useState } from "react";
-// import '../App';
+// import "../App";
 
 const formReducer = (state, event) => {
     return {
@@ -19,7 +19,7 @@ export default function CreateProfile(){
         setTimeout(() => {
             setSubmitting(false);
         }, 5000)
-        alert('You have submitted the form.')
+        alert("You have submitted the form.")
       }
     
     const handleChange = event => {

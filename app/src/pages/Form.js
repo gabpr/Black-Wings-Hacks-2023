@@ -1,13 +1,13 @@
-import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Form() {
 
 const navigate = useNavigate();
 
 // States for registration
-const [username, setUsername] = useState('');
-const [password, setPassword] = useState('');
+const [username, setUsername] = useState("");
+const [password, setPassword] = useState("");
 
 // States for checking the errors
 const [submitted, setSubmitted] = useState(false);
@@ -28,7 +28,7 @@ setSubmitted(false);
 // Handling the user submission for log in
 const handleLogIn = (e) => {
     e.preventDefault();
-    if (username === '' || password === '') {
+    if (username === "" || password === "") {
         setError(true);
     } 
     else {
@@ -41,7 +41,7 @@ const handleLogIn = (e) => {
 // Handling the user signing up
 const handleSignUp = (e) => {
     e.preventDefault();
-    if (username === '' || password === '') {
+    if (username === "" || password === "") {
         setError(true);
     }
     else{
@@ -57,7 +57,7 @@ const handleSignUp = (e) => {
 // <div
 // className="success"
 // style={{
-// display: submitted ? '' : 'none',
+// display: submitted ? "" : "none",
 // }}>
 // <h1>User {username}  successfully logged in!</h1>
 // </div>
@@ -70,7 +70,7 @@ return (
 <div
 className="error"
 style={{
-display: error ? '' : 'none',
+display: error ? "" : "none",
 }}>
 <h1>Please enter all the fields</h1>
 </div>

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useEffect} from "react";
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 
 function Menu() {

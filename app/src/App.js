@@ -1,13 +1,13 @@
 // import React, { useState, useEffect } from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 import {Route, Routes} from "react-router-dom";
-import Form from './pages/Form';
-import Home from './pages/Home';
-import Prompts from './pages/Prompts';
-import Questions from './pages/Questions';
+import Form from "./pages/Form";
+import Home from "./pages/Home";
+import Prompts from "./pages/Prompts";
+import Questions from "./pages/Questions";
 
-import CreateProfile from './pages/CreateProfile';
+import CreateProfile from "./pages/CreateProfile";
 
 // function Menu() {
 //   const [isOpen, setIsOpen] = useState(false);
