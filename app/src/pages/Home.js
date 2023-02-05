@@ -28,7 +28,7 @@ function DailyPrompt() {
     <div className="Daily pt-3 pb-3
     ">
       <h1>Daily Prompt</h1>
-      <p class="pt-2">A daily prompt goes here</p>
+      <p class="pt-2">What were some of the biggest challenges you faced when...</p>
 
       <form onSubmit={handleSubmit}>
         <button type = "submit" className="btn">
