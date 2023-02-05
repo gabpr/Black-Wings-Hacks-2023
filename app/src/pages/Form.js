@@ -45,24 +45,11 @@ const handleSignUp = (e) => {
         setError(true);
     }
     else{
-        navigate("/signup");
+        navigate("/profile");
         setSubmitted(true);
         setError(false);
     }
 };
-
-// Showing success message
-// const successMessage = () => {
-// return (
-// <div
-// className="success"
-// style={{
-// display: submitted ? '' : 'none',
-// }}>
-// <h1>User {username}  successfully logged in!</h1>
-// </div>
-// );
-// };
 
 // Showing error message if error is true
 const errorMessage = () => {

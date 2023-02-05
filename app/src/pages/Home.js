@@ -4,6 +4,7 @@ import React from "react";
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Menu from '../components/Menu.js'
+import { useNavigate } from 'react-router-dom';
 
 function Banner() {
   return (
@@ -15,14 +16,26 @@ function Banner() {
 }
 
 function DailyPrompt() {
+    const navigate = useNavigate();
+
+    // handle user requesting to view all prompts
+    const handleSubmit = event => {
+    event.preventDefault();
+    navigate('/dailyprompt');
+  }
+
   return (
     <div className="Daily pt-3 pb-3
     ">
       <h1>Daily Prompt</h1>
       <p class="pt-2">A daily prompt goes here</p>
-      <button type="button" class="btn btn-primary"><div class="px-2 py-0">Submit</div></button>
+
+      <form onSubmit={handleSubmit}>
+        <button type = "submit" className="btn">
+            Respond
+        </button>
+      </form>
     </div>
-    
   );
 }
 
@@ -40,21 +53,6 @@ function QBox() {
     </div>
   );
 }
-  
-//   function QBox() {
-//     const [inputValue, setInputValue] = useState("");
-  
-//     return (
-//       <div className="Qbox pt-2 pb-0 mb-0">
-//         <h4>Ask a Question</h4>
-//         <textarea 
-//           value={inputValue} 
-//           onChange={(event) => setInputValue(event.target.value)} 
-//         />
-//         {/* <p>Input value: {inputValue}</p> */}
-//       </div>
-//     );
-//   }
   
   function Qcategories() {
     const [selectedOption, setSelectedOption] = useState("Option 1");
