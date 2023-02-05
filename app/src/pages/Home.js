@@ -40,25 +40,21 @@ function QBox() {
     </div>
   );
 }
-
-      </div>
-    );
-  }
   
-  function QBox() {
-    const [inputValue, setInputValue] = useState("");
+//   function QBox() {
+//     const [inputValue, setInputValue] = useState("");
   
-    return (
-      <div className="Qbox pt-2 pb-0 mb-0">
-        <h4>Ask a Question</h4>
-        <textarea 
-          value={inputValue} 
-          onChange={(event) => setInputValue(event.target.value)} 
-        />
-        {/* <p>Input value: {inputValue}</p> */}
-      </div>
-    );
-  }
+//     return (
+//       <div className="Qbox pt-2 pb-0 mb-0">
+//         <h4>Ask a Question</h4>
+//         <textarea 
+//           value={inputValue} 
+//           onChange={(event) => setInputValue(event.target.value)} 
+//         />
+//         {/* <p>Input value: {inputValue}</p> */}
+//       </div>
+//     );
+//   }
   
   function Qcategories() {
     const [selectedOption, setSelectedOption] = useState("Option 1");
