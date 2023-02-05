@@ -37,6 +37,4 @@ Requirement: node.js must be downloaded to machine - otherwise download via node
 6) npm run <br>
 
 
-Spec requirements: <br>
-
-To learn more about our creative and design process, please visit our ProductInfo markdown file 
+To learn more about our creative and design process, please visit our ProductInfo markdown file <br>
