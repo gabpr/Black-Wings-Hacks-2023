@@ -18,7 +18,7 @@ const Menu = (props) => {
   return (
     <div class="menu">
       <Navbar expand="md">
-        <NavbarBrand href="/"><h4>First</h4></NavbarBrand>
+        <NavbarBrand href="/"><h4>Home</h4></NavbarBrand>
         <NavbarToggler onClick={toggle} class="hamburger"/>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>

@@ -139,10 +139,11 @@ h4 {
 }
 
 .Banner {
-  background-image: url("./assets/Banner.png");
+  background-image: url("./assets/Banner-l.png");
   width: 100vw;
   min-height: 30vh;
   background-size: cover;
   color: white;
-  font-size: 300%;
+  font-size: 250%;
+  font-weight: bold;
 }
