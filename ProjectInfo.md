@@ -40,6 +40,13 @@ The unique features that differentiate our app include:
   We recognize there are tons of external resources already made and ready for first-generation students, but sometimes this can be difficult to find across the whole web. This feature will help sort through these resources and provide direct links to users on extra resources to may provide additional guidance, tips, and tools. 
   </ol>
   
+<h2>Domain.com</h2>
+Proposed domain names registered at domain.com:<br>
+firstbutnotleast.tech <br>
+wethefirst.tech <br>
+firstgenbutnotlast.tech <br>
+mefirst.tech <br>
+  
 <h2>Challenges Experienced</h2>
 Since our team consists of all students, fitting in time to prioritize the hackathon amidst class deadlines and other commitments was a challenge. We set rough timelines for ourselves to make the most out of the limited time of the hackathon, which was a unique and fun challenge. Setting realistic tasks and features was important for us to create a living product without compromising on design or impact. We chose features that would doable for the time crunch and our team's skill levels, creating opportunities for future development while still launching a project we could be proud of. <br>
 
