@@ -91,18 +91,52 @@ function Qcategories() {
   );
 }
 
+// function QFeed() {
+//   const [keys, setKeys] = useState([]);
+//   const [message, setMessage] = useState({});
+
+//   useEffect(() => {
+//     async function fetchData() {
+//       const response = await fetch("https://dog.ceo/api/breeds/list/all");
+//       const json = await response.json();
+//       setMessage(json.message);
+//       setKeys(Object.keys(json.message).slice(0, 3));
+//     }
+//     fetchData();
+//   }, []);
+
+// return (
+//   <div className="Qfeed pb-5 pt-4">
+//     <div class="pb-1">
+//       <h4>Recent Questions from the Community</h4>
+//     </div>
+//     {keys.map((key, index) => (
+//       <div className="Qbubble" key={index}>
+//         <div class="break mx-auto py-2 ">
+//           <div class="qfeed">
+//             <img src={icon} alt=""></img>
+//             <p class="px-2 pt-2">
+//               <b>
+//                 {key}: {message[key]} Asks:
+//               </b>
+//             </p>
+//             <p class="px-5">
+//               {key}: {message[key]}
+//             </p>
+//           </div>
+//         </div>
+//       </div>
+//     ))}
+//   </div>
+// );
+// }
+
 function QFeed() {
-  const [keys, setKeys] = useState([]);
-  const [message, setMessage] = useState({});
+  const [qAndAnswers, setQAndAnswers] = useState([]);
 
   useEffect(() => {
-    async function fetchData() {
-      const response = await fetch("https://dog.ceo/api/breeds/list/all");
-      const json = await response.json();
-      setMessage(json.message);
-      setKeys(Object.keys(json.message).slice(0, 3));
-    }
-    fetchData();
+    const data = require("../questionanswer-data.json");
+    setQAndAnswers(data.qAndAnswers.slice(0, 3));
   }, []);
 
   return (
@@ -110,19 +144,15 @@ function QFeed() {
       <div class="pb-1">
         <h4>Recent Questions from the Community</h4>
       </div>
-      {keys.map((key, index) => (
-        <div className="Qbubble" key={index}>
-          <div class="break mx-auto py-2 ">
-            <div class="qfeed">
-              <img src={icon} alt=""></img>
+      {qAndAnswers.map((qAndAnswer) => (
+        <div class="break mx-auto py-2 ">
+          <div class="qfeed Qbubble">
+            <img src={icon} alt=""></img>
+            <div key={qAndAnswer.question}>
               <p class="px-2 pt-2">
-                <b>
-                  {key}: {message[key]} Asks:
-                </b>
+                <b>{qAndAnswer.postedBy} Asks:</b>
               </p>
-              <p class="px-5">
-                {key}: {message[key]}
-              </p>
+              <p class="px-5">{qAndAnswer.question}</p>
             </div>
           </div>
         </div>
