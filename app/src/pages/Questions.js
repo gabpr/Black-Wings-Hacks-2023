@@ -117,7 +117,7 @@ function QFeed() {
   );
 }
 
-export default function Home() {
+export default function Questions() {
   return (
     <div class="bg">
       <Menu />
