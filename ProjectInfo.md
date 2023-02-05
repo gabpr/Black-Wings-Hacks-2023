@@ -1,5 +1,5 @@
 <h2> BeepBoop Presents: FIRST</h2>
-![FIRST Logo](FIRSTlogo.png) <br>
+![FIRST Logo](https://github.com/gabpr/Black-Wings-Hacks-2023/blob/markdown/FIRSTlogo.png?raw=true) <br>
 <b> A Community Platform to Connect First-Generation Students </b>
 <br>
 
