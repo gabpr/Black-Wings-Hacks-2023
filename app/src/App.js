@@ -14,15 +14,12 @@ const App = () => {
   
   {/* added routes here because the tutorial showed 
   that but we can keep routes.js*/}
-
-
       <Routes>
         <Route path="/" element={<Form />} />
         <Route path="/home" element={<Home />} />
         <Route path="/questions" element ={<Questions />} />
         <Route path="/dailyprompt" element={<Prompts />} />
-        <Route path="/profile" element={<UserProfile />} />
-        
+        <Route path="/profile" element={<UserProfile />} />        
       </Routes>
    </div>
   );
