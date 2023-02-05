@@ -1,6 +1,6 @@
 # Black-Wings-Hacks-2023
 <h2>About Black Wings Hacks:</h2>
-Black Wings Hacks is an inclusive, accessible hackathon open to all college women in tech. Founded, designed and led by the amazing Rewriting the Code Black Wings, RTC's community of black women in tech. <br>
+Black Wings Hacks is an inclusive, accessible hackathon open to all college women in tech. Founded, designed and led by the amazing Rewriting the Code Black Wings, RTC's community of Black women in tech. <br>
 The 2023 Black Wings Hacks was hosted online, and is an official member event for the Major League Hacking 2023 Hackathon Season. <br>
 
 
