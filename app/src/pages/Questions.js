@@ -76,7 +76,7 @@ function Filters() {
             onChange={handleOptionChange}
           >
             <option value="">Select</option>
-            <option value="New Grad">Mew Grad</option>
+            <option value="New Grad">New Grad</option>
             <option value="Non-Traditional">Non-Traditional</option>
             <option value="Advanced Career">Advanced Career</option>
             <option value="Student">Student</option>
@@ -123,6 +123,7 @@ export default function Questions() {
       <Menu />
       <Banner />
       <SearchBox />
+      <Filters />
       <QFeed />
     </div>
   );
