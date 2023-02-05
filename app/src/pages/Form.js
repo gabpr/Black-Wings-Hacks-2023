@@ -13,7 +13,7 @@ const [password, setPassword] = useState('');
 const [submitted, setSubmitted] = useState(false);
 const [error, setError] = useState(false);
 
-// Handling the email change
+// Handling the username change
 const handleUsername = (e) => {
 setUsername(e.target.value);
 setSubmitted(false);
@@ -25,30 +25,44 @@ setPassword(e.target.value);
 setSubmitted(false);
 };
 
-// Handling the form submission
-const handleSubmit = (e) => {
-e.preventDefault();
-if (username === '' || password === '') {
-setError(true);
-} else {
-navigate("/Home");
-setSubmitted(true);
-setError(false);
-}
+// Handling the user submission for log in
+const handleLogIn = (e) => {
+    e.preventDefault();
+    if (username === '' || password === '') {
+        setError(true);
+    } 
+    else {
+        navigate("/home");
+        setSubmitted(true);
+        setError(false);
+    }
+};
+
+// Handling the user signing up
+const handleSignUp = (e) => {
+    e.preventDefault();
+    if (username === '' || password === '') {
+        setError(true);
+    }
+    else{
+        navigate("/signup");
+        setSubmitted(true);
+        setError(false);
+    }
 };
 
 // Showing success message
-const successMessage = () => {
-return (
-<div
-className="success"
-style={{
-display: submitted ? '' : 'none',
-}}>
-<h1>User {username}  successfully logged in!</h1>
-</div>
-);
-};
+// const successMessage = () => {
+// return (
+// <div
+// className="success"
+// style={{
+// display: submitted ? '' : 'none',
+// }}>
+// <h1>User {username}  successfully logged in!</h1>
+// </div>
+// );
+// };
 
 // Showing error message if error is true
 const errorMessage = () => {
@@ -72,7 +86,7 @@ return (
 {/* Calling to the methods */}
 <div className="messages">
 {errorMessage()}
-{successMessage()}
+{/* {successMessage()} */}
 </div>
 
 <form>
@@ -86,8 +100,12 @@ value={username} type="email" />
 <input onChange={handlePassword} className="input"
 value={password} type="password" />
 
-<button onClick={handleSubmit} className="btn" type="submit">
-Submit
+<button onClick={handleSignUp} className="btn" type="submit">
+Sign Up
+</button>
+
+<button onClick={handleLogIn} className="btn" type="submit">
+Log In
 </button>
 </form>
 </div>
