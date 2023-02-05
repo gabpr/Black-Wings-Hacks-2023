@@ -1,0 +1,94 @@
+{
+    "dailyPrompts": [
+        {
+            "promptName":"Daily Prompt 1",
+            "date":"2023-01-19",
+            "promptQuestion":"What do you look for from an employer around work-life balance?",
+            "responses": [
+                        {
+                            "writtenByID":"83401",
+                            "writtenByName":"Rick",
+                            "promptAnswer":"Staying within the working hours. Youll never catch me promptAnswering emails outside of my shift, thats just disrespectful of my time"
+                        },
+                        {
+                            "writtenByID":"95831",
+                            "writtenByName":"Jayne",
+                            "promptAnswer":"Its all about mutual respect. You should be able to still have a life outside of work, and your employer needs to recognize you are person outside of work too. Having appointments, getting sick, etc just happens and you cant always plan for it."
+                        }
+            ]
+        },
+        {
+            "promptName":"Daily Prompt 2",
+            "date":"2023-01-20",
+            "promptQuestion":"Have you worked while you were taking classes? Tell us about your experience!",
+            "responses": [
+                        {
+                            "writtenByID":"23001",
+                            "writtenByName":"Tom",
+                            "promptAnswer":"I am working at FootLocker right now on weekends to help cover getting food out and fun things with my friends. It is definitely tough to juggle with classes but my boss has been understanding."
+                        },
+                        {
+                            "writtenByID":"95831",
+                            "writtenByName":"Jayne",
+                            "promptAnswer":"I tried to waitress in my last year of school but I kept having to give away my shifts because I had so much project work. I realized the extra money wasnt worth me failing classes and had to buget more to afford my last year."
+                        },
+                        {
+                            "writtenByID":"48302",
+                            "writtenByName":"Taylor",
+                            "promptAnswer":"I saved up enough money to not have to work during the semester, but I always try to get a good internship every summer which I save to use during the school year."
+                        }
+
+            ]
+
+        },
+        {
+            "promptName":"Daily Prompt 3",
+            "date":"2023-01-21",
+            "promptQuestion":"Whats your best project youve ever made?",
+            "responses": [
+                        {
+                            "writtenByID":"95831",
+                            "writtenByName":"Jayne",
+                            "promptAnswer":"I made a fullstack app with two team members in my capstone project. One girl didnt do anything so we had to do all the work.. it was the hardest thing ive ever done but its the top thing on my resume I talk about now."
+                        },
+                        {
+                            "writtenByID":"48302",
+                            "writtenByName":"Taylor",
+                            "promptAnswer":"Once I made a ML program that would help me decide what to eat for dinner based on how I was feeling, food I liked eating and what the weather was like, it was really cool."
+                        },
+                        {
+                            "writtenByID":"77593",
+                            "writtenByName":"Dillon",
+                            "promptAnswer":"I havent really done much projects, such basic homework stuff since Im a freshman. Im pumped to do more projects soon!"
+                        }
+
+            ]
+
+        },
+        {
+            "promptName":"Daily Prompt 4",
+            "date":"2023-01-22",
+            "promptQuestion":"How do you stay healthy on a day to day basis?",
+            "responses": [
+                        {
+                            "writtenByID":"23001",
+                            "writtenByName":"Tom",
+                            "promptAnswer":"I try to go to the gym almost every other day. Sometimes it is closer to once a week but thats okay because I get busy."
+                        },
+                        {
+                            "writtenByID":"83401",
+                            "writtenByName":"Rick",
+                            "promptAnswer":"I like to chill out at the end of the day by reading. Putting your phone down and just relaxing is super important to your mental health."
+                        },
+                        {
+                            "writtenByID":"48302",
+                            "writtenByName":"Taylor",
+                            "promptAnswer":"I try to be mindful of what Im eating and how active I am. Its a work in progress!"
+                        }
+
+            ]
+
+        }
+
+    ]
+}
