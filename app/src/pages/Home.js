@@ -24,6 +24,26 @@ function Menu() {
       </div>
     );
   }
+
+  function DailyPrompt() {
+  
+    return (
+      <div className="Welcome pt-5 pb-5">
+        <h2 >Daily Prompt</h2>
+        {/* <button onClick={() => setIsOpen(!isOpen)}>
+          {isOpen ? "Close" : "Open"}
+        </button>
+        {isOpen && (
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+        )} */}
+
+      </div>
+    );
+  }
   
   function QBox() {
     const [inputValue, setInputValue] = useState("");
@@ -90,6 +110,7 @@ export default function Home(){
     return(
     <div class="bg">
         <Menu />
+        <DailyPrompt />
         <QBox />
         <Qcategories />
         <QFeed />
