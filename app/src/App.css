@@ -42,8 +42,8 @@ li {
   font-size: larger;
   padding: 5px;
   margin: 2px;
-  
   }
+
   .btn{
   color: white;
   background-color: #690DFF;
@@ -113,3 +113,11 @@ li {
   .bg {
     background-color:#2D8DFF
   }
+  .wrapper{
+    padding: 10px 20px;
+  }
+
+  .wrapper fieldset {
+    margin: 20px 0;
+}
+  
