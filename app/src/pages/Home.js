@@ -1,13 +1,16 @@
 import { useState } from "react";
 import { useEffect} from "react";
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function Menu() {
     const [isOpen, setIsOpen] = useState(false);
   
     return (
-      <div>
-        <button onClick={() => setIsOpen(!isOpen)}>
+      <div className="Welcome pt-5 pb-5">
+        <h2 >Hi, Nicole!</h2>
+        {/* <button onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? "Close" : "Open"}
         </button>
         {isOpen && (
@@ -16,7 +19,28 @@ function Menu() {
             <li>Item 2</li>
             <li>Item 3</li>
           </ul>
-        )}
+        )} */}
+
+      </div>
+    );
+  }
+
+  function DailyPrompt() {
+  
+    return (
+      <div className="Welcome pt-5 pb-5">
+        <h2 >Daily Prompt</h2>
+        {/* <button onClick={() => setIsOpen(!isOpen)}>
+          {isOpen ? "Close" : "Open"}
+        </button>
+        {isOpen && (
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+        )} */}
+
       </div>
     );
   }
@@ -25,14 +49,13 @@ function Menu() {
     const [inputValue, setInputValue] = useState("");
   
     return (
-      <div>
-        <div class="text-primary mt-2">Ask a Question</div>
-        <input 
-          type="text" 
+      <div className="Qbox pt-2 pb-0 mb-0">
+        <h4>Ask a Question</h4>
+        <textarea 
           value={inputValue} 
           onChange={(event) => setInputValue(event.target.value)} 
         />
-        <p>Input value: {inputValue}</p>
+        {/* <p>Input value: {inputValue}</p> */}
       </div>
     );
   }
@@ -45,8 +68,8 @@ function Menu() {
     };
   
     return (
-      <div class="w-100">
-        <label class="w-100 text-primary">Category</label>
+      <div class="w-100" className="Qbox mt-0 pb-4">
+        <label class="w-100 pb-2">Category</label>
         <select value={selectedOption} onChange={handleOptionChange}>
           <option value="Option 1">Option 1</option>
           <option value="Option 2">Option 2</option>
@@ -73,11 +96,11 @@ function Menu() {
     }, []);
   
     return (
-      <div>
-        <div class="mt-3 text-primary">Question Feed</div>
+      <div className="Qfeed pb-5 pt-2">
+        <div >Recent Questions</div>
         {keys.map((key, index) => (
-          <div key={index}>
-            <div class="qfeed">{key}: {message[key]}</div>
+          <div className="Qbubble" key={index}>
+            <div class="qfeed m-2">{key}: {message[key]}</div>
           </div>
         ))}
       </div>
@@ -86,8 +109,9 @@ function Menu() {
   
 export default function Home(){
     return(
-    <div>
+    <div class="bg">
         <Menu />
+        <DailyPrompt />
         <QBox />
         <Qcategories />
         <QFeed />
