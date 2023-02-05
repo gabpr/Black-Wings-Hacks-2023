@@ -73,7 +73,7 @@ function PFeed() {
   );
 }
   
-export default function Home(){
+export default function Prompts(){
     return(
     <div class="bg">
         <Menu />

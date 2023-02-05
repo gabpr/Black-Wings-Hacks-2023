@@ -16,7 +16,7 @@ const Menu = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div class="menu">
+    <div class="menu px-4">
       <Navbar expand="md">
         <NavbarBrand href="/"><h4>Home</h4></NavbarBrand>
         <NavbarToggler onClick={toggle} class="hamburger"/>
