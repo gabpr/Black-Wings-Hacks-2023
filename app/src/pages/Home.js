@@ -8,6 +8,7 @@ import Menu from '../components/Menu.js'
 function Banner() {
   return (
     <div className="Banner py-5">
+      <div class="sh">.</div>
       Hi, Nicole!
     </div>    
   );
