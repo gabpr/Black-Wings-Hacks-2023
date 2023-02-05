@@ -45,6 +45,12 @@ function DailyPrompt() {
 function QBox() {
   const [inputValue, setInputValue] = useState("");
 
+  const navigate = useNavigate();
+  const handleQSubmit = (event) => {
+    event.preventDefault();
+    navigate("/questions");
+  };
+
   return (
     <div className="Qbox pt-4 px-1 py-2">
       <h4 class="pb-1">Ask a Question</h4>
@@ -55,9 +61,10 @@ function QBox() {
         onChange={(event) => setInputValue(event.target.value)}
       />
       {/* <p>Input value: {inputValue}</p> */}
-      <button type="button" class="btn btn-primary">
-        <div class="px-2 py-0">Submit</div>
+      <form onSubmit={handleQSubmit}>
+      <button type="submit" class="btn btn-primary"> <div class="px-2 py-0">Submit</div> 
       </button>
+      </form>
     </div>
   );
 }
