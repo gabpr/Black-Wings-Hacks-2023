@@ -71,11 +71,13 @@ function Menu() {
       <div class="w-100" className="Qbox mt-0 pb-4">
         <label class="w-100 pb-2">Category</label>
         <select value={selectedOption} onChange={handleOptionChange}>
-          <option value="Option 1">Option 1</option>
-          <option value="Option 2">Option 2</option>
-          <option value="Option 3">Option 3</option>
-          <option value="Option 4">Option 4</option>
-          <option value="Option 5">Option 5</option>
+          <option value="Applications">Applications</option>
+          <option value="Courses">Courses</option>
+          <option value="Majors">Majors</option>
+          <option value="Mental Health">Mental Health</option>
+          <option value="Relationships">Relationships</option>
+          <option value="Financial Planning">Financial Planning</option>
+          <option value="Time Management">Time Management</option>
         </select>
       </div>
     );
